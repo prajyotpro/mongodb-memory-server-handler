@@ -1,7 +1,16 @@
 {
 	"name": "mongodb-memory-server-handler",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Database function handler for mock db test cases",
+  "keywords": [
+    "mongodb",
+    "mongodb-memory-server",
+    "handler"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prajyotpro/mongodb-memory-server-handler"
+  },
 	"main": "./lib/cjs/index.js",
 	"module": "./lib/esm/index.js",
 	"files": [
