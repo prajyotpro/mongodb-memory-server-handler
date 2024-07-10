@@ -1,0 +1,23 @@
+{
+	"name": "mongodb-memory-server-handler",
+	"version": "1.0.1",
+	"description": "Database function handler for mock db test cases",
+	"main": "./lib/cjs/index.js",
+	"module": "./lib/esm/index.js",
+	"files": [
+		"lib/"
+	],
+	"scripts": {
+		"tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublishOnly": "npm run tsc"
+	},
+	"author": "Prajyot Khandeparkar",
+	"license": "Apache License",
+	"dependencies": {
+		"mongodb-memory-server": "^9.4.0",
+		"mongoose": "^8.5.0"
+	},
+	"devDependencies": {
+		"typescript": "^5.5.3"
+	}
+}
